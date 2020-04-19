@@ -39,17 +39,20 @@ function deformation(){
   
 	if(deformation>180)
 	{
+    
     car.shapeColor="lavender";
 	}
 
 	if(deformation<180 && deformation>100)
 	{
+    
 		car.shapeColor="yellow";
 	}
 
 	if(deformation<100)
 	{
+    
 		car.shapeColor="lightgreen";
   }
-  
+  text("Deformation is "+deformation,300,300);
 }
