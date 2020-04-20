@@ -27,6 +27,7 @@ function draw() {
   car.collide(wall,deformation);
   
   textSize(15);
+  
   text("Deformation is : > 180 ===> Car is Lavender ===> Lethal for the Passangers",30,340);
   text("Deformation is : < 180 && > 100 ===> Car is Yellow ===> Average for the Passangers",30,360);
   text("Deformation is : < 100 ===> Car is LightGreen ===> Good for the Passangers",30,380);
@@ -54,5 +55,5 @@ function deformation(){
     
 		car.shapeColor="lightgreen";
   }
-  text("Deformation is "+deformation,300,300);
+  
 }
