@@ -34,7 +34,7 @@ function draw() {
   text("Deformation is : < 100 ===> Car is LightGreen ===> Good for the Passangers",30,380);
   fill("red");
   textSize(20);
-  text("DEFORMATION IS - "+Math.floor(deformation),30,300);
+  text("DEFORMATION IS : "+Math.floor(deformation),30,300);
 }
 
 function deformations(){
