@@ -6,13 +6,13 @@ function setup() {
   
   car = createSprite(100,190,50,50);
   car.shapeColor ="lightpink"
-  car.velocityX= 10;
+ 
   wall = createSprite(900,200,20,300);
   wall.shapeColor ="lightpink";
   
   speed=random(55,90);
   weight=random(400,1500);
-  
+   car.velocityX = 10;
 }
 
 function draw() {
